@@ -110,7 +110,22 @@ button {
 }
 
 /* New Class For Buttons */
-.other {
+.pi {
+    background-color: red;
+    font-weight: bold;
+}
+
+.sqrt {
+    background-color: red;
+    font-weight: bold;
+}
+
+.exponent {
+    background-color: red;
+    font-weight: bold;
+}
+
+.log {
     background-color: red;
     font-weight: bold;
 }

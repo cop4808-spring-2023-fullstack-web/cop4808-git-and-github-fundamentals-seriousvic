@@ -53,14 +53,13 @@ function clickButton() {
                 squareRoot(displayValue);
                 updateDisplay();
             } else if(buttons[i].classList.contains('exponent')) {
-            exponentTwo(displayValue);
-            updateDisplay();
-            } else if(buttons[i].classList.contains('log')) {
+                exponentSquared(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('log'))
                 logOfX(displayValue);
                 updateDisplay();
-            }
-        });
-    }
+        }
+    )}
 }
 
 clickButton();
@@ -207,8 +206,8 @@ function logOfX(num){
     return displayValue = Math.log(num).toFixed(9);
 }
 
-function pi(num){
-    return displayValue = Math.PI(num).toFixed(9);
+function piAdd(num){
+    return displayValue = Math.PI.toFixed(9);
 }
 
 function exponentSquared(num){
