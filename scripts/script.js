@@ -41,11 +41,26 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
-        }
-    )}
+
+            // Logic For The Four Buttons
+            } else if(buttons[i].classList.contains('pi')) {
+                piAdd(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('sqrt')) {
+                squareRoot(displayValue);
+                updateDisplay();
+            } else if(buttons[i].classList.contains('exponent')) {
+            exponentTwo(displayValue);
+            updateDisplay();
+            } else if(buttons[i].classList.contains('log')) {
+                logOfX(displayValue);
+                updateDisplay();
+            }
+        });
+    }
 }
 
 clickButton();
