@@ -183,10 +183,19 @@ function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
 
+// Four New Button Functions
 function squareRoot(num){
     return displayValue = Math.sqrt(num).toFixed(9);
 }
 
 function logOfX(num){
     return displayValue = Math.log(num).toFixed(9);
+}
+
+function pi(num){
+    return displayValue = Math.PI(num).toFixed(9);
+}
+
+function exponentSquared(num){
+    return displayValue = Math.pow(num, 2).toFixed(9);
 }
