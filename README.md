@@ -1,6 +1,6 @@
 # Victor Burgos
 
-## Caclculator App
+## Calculator App
 This is my updated Calculator App built with HTML, CSS, and Javascript.
 I added four new buttons:
 * π
