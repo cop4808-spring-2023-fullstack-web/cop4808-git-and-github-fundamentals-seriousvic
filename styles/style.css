@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px); /* Change from 5 to 6 to account for new buttons*/
     gap: 2px;
 }
 
