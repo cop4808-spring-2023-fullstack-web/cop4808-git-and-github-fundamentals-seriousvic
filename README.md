@@ -8,3 +8,4 @@ I added four new buttons:
 * x²
 * Natural Log
 
+Gif showcasing Functionality:
