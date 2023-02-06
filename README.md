@@ -9,4 +9,4 @@ I added four new buttons:
 * Natural Log
 
 Gif showcasing Functionality:
-![](https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-seriousvic/blob/main/Calculator-in-Action.gif)
+![](https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-seriousvic/blob/main/calcgif.gif)
